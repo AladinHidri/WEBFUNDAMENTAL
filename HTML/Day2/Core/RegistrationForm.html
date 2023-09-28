@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>RegistRATION Form</title>
+</head>
+
+<body>
+    <h3>Registration Form</h3>
+    <form>
+        <label for="first_name">First Name: *</label>
+        <input type="text" name="first_name">
+        <br>
+        <label for="last_name">Last Name: *</label>
+        <input type="text" name="last_name">
+        <br>
+        <label for="email_address">Email Address: *</label>
+        <input type="email" name="email_address">
+        <br>
+        <label for="password">Password: *</label>
+        <input type="password" name="password">
+        <br>
+        <label for="confirm_password">Confirm Password: *</label>
+        <input type="password" name="confirm_password">
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday" placeholder="mm/dd/yyyy">
+        <br>
+        <div>Gender Idendity:</div>
+
+        <input type="radio" name="option" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="option" id="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="option" id="non-binary">
+        <label for="non-binary">Non-binary</label>
+
+        <input type="radio" name="option" id="no-answer">
+        <label for="no-answer">I prefer not to answer</label>
+
+        <br>
+
+        <label for="description">A short description about myself:</label>
+        <br>
+        <textarea id="description" name="description" rows="2" cols="32"></textarea>
+
+        <br>
+
+        <label for="favorite_language">Favorite Language:</label>
+        <select name="favorite_language" id="favorite_language">
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="c">C</option>
+            <option value="c#">C#</option>
+            <option value="c++">C++</option>
+            <option value="python">Python</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" id="receive_period_email" name="receive_period_email">
+        <label for="receive_period_email">Yes, I would like to receive periodoc email updates</label>
+
+        <br><br>
+
+        <input type="submit" value="Create Account"></input>
+        <br><br>
+        <div>* Indicates a required field</div>
+
+    </form>
+</body>
+
+</html>

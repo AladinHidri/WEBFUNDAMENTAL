@@ -1,0 +1,56 @@
+.table-without-border {
+  border-collapse: collapse;
+  border-bottom: none;
+}
+.table-without-border .ligne {
+  border-bottom: 1px solid black;
+}
+.table-without-border .ligne-top {
+  border-top: 1px solid black;
+}
+.table-without-border .ligne .column {
+  border-right: 1px solid black;
+}
+.table-without-border .ligne-top .column {
+  border-right: 1px solid black;
+}
+.name-email {
+  width: 67px;
+  height: 20px;
+}
+.display-flex {
+  display: flex;
+}
+
+.message-style {
+  margin-top: 10px;
+}
+.text-area {
+  margin-left: 6px;
+  width: 174px;
+}
+.text-decoration {
+  text-decoration: underline;
+  color: rgb(0, 119, 255);
+}
+.snakes {
+  padding-top: 9px;
+  padding-left: 8px;
+  padding-right: 8px;
+  line-height: 31px;
+  width: 45px;
+  border: 3px solid black;
+}
+.img-style {
+  width: 20px;
+  height: 20px;
+}
+
+.blue-color {
+  color: blue;
+}
+.user-img {
+  border: 3px solid black;
+  width: 65px;
+  height: 65px;
+}
