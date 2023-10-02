@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  background-color: #2e2e2e;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.nav-title {
+  text-align: left;
+  color: white;
+  margin-left: 15px;
+}
+.nav-links {
+  text-align: right;
+  display: flex;
+  list-style-type: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 21px;
+}
+
+li a {
+  margin-right: 25px;
+}
+
+.btn {
+  background-color: #87cefa;
+  color: white;
+  width: 75px;
+  height: 28px;
+  margin-top: -3px;
+  box-shadow: 5px 6px black;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}

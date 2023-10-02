@@ -1,0 +1,27 @@
+.col-1 {
+  flex: 1;
+  background-color: #01bae9;
+  padding: 20px;
+}
+
+.col-2 {
+  flex: 1;
+  background-color: rgb(224, 118, 224);
+  padding: 20px;
+}
+
+.col-3 {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+img {
+  width: 240px;
+}

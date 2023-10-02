@@ -1,0 +1,29 @@
+.my-cloud {
+  background-color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+.my {
+  color: white;
+}
+.cloud {
+  color: #33ffff;
+  margin-left: -9px;
+}
+span a {
+  display: inline-block;
+}
+.completed-project {
+  background-color: purple;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.contact-us {
+  background-color: #87cefa;
+  color: black;
+  text-decoration: underline;
+  text-align: right;
+  padding-right: 20px;
+}
