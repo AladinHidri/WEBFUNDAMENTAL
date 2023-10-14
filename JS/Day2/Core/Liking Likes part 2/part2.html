@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Liking Likes</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="network">Network</div>
+    </header>
+    <main>
+        <div class="your-feed">Your Feed</div>
+        <div class="body">
+            <div class="avatar">
+                <img src="./assets/user-circle.png" alt="user-circle" class="user-img">
+                <div class="add-an-avatar">Add an avatar</div>
+                <div class="james-doe">James Doe</div>
+            </div>
+            <div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="some-user">Neil M</div>
+                        <div class="display-flex like-style">
+                            <div id="likeCount1">0 </div>
+                            <div>&nbsp; likes(s)</div>
+                            <button id="likeButton" class="button-style" onclick="likeFirst()">Like</button>
+                        </div>
+
+
+                    </div>
+                    <div class="description">
+                        <div>I just set up this new discord bot, let me </div>
+                        <div class="display-flex">
+                            <div>know what you all think &nbsp;</div>
+                            <div class="text-decoration">link</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="some-user">Nichole K</div>
+                        <div class="display-flex like-style">
+                            <div id="likeCount2">0 </div>
+                            <div>&nbsp; likes(s)</div>
+                            <button id="likeButton" class="button-style" onclick="likeSecond()">Like</button>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <div class="display-flex">
+                            <div>Just finished my &nbsp;</div>
+                            <div class="text-decoration">next comic</div>
+                            <div>,&nbsp;check it out.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="some-user">Neil M</div>
+                        <div class="display-flex like-style">
+                            <div id="likeCount3">0 </div>
+                            <div>&nbsp; likes(s)</div>
+                            <button id="likeButton" class="button-style" onclick="likeThird()">Like</button>
+                        </div>
+
+
+                    </div>
+                    <div class="description">
+                        <div class="display-flex">
+                            <div>I can't stop listening to the &nbsp;</div>
+                            <div class="text-decoration">new album</div>
+                            <div>.</div>
+                        </div>
+                        <div>Who else is liking it?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+.header {
+  padding-top: 11px;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 800px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login {
+  background-color: #2b78e4;
+  box-shadow: 2px 3px 0px 0px black;
+  cursor: pointer;
+  color: white;
+  width: 70px;
+  width: 73px;
+  height: 31px;
+  text-align: center;
+}
+
+.search {
+  height: 24px;
+  width: 280px;
+  border: 2px solid black;
+  margin-top: 5px;
+}
+
+.dojonary {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.body {
+  margin-left: 110px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.container {
+  width: 491px;
+  height: 177px;
+  display: flex;
+  border: 2px solid black;
+  padding-left: 25px;
+  margin-bottom: 21px;
+}
+
+.text-decoration {
+  color: #316fa4;
+  text-decoration: underline;
+}
+.display-flex {
+  display: flex;
+}
+.button-style {
+  background-color: yellow;
+  box-shadow: 2px 3px 0px 0px black;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  width: 89px;
+  height: 26px;
+  margin-top: 18px;
+  padding-top: 4px;
+  padding-left: 25px;
+}
+.noun-style {
+  font-size: 18px;
+  margin-left: 14px;
+  margin-bottom: 1px;
+}
+.prationner {
+  margin-left: 118px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.ninja {
+  margin-bottom: 5px;
+}
+.definition {
+  border: 2px solid black;
+  margin-left: 20px;
+  width: 315px;
+  height: 132px;
+  padding-top: 19px;
+  padding-left: 15px;
+}
+.dijonary-defined-by-you {
+  font-size: 23px;
+  font-weight: 600;
+}
+.add-definition {
+  margin-top: 19px;
+  width: 174px;
+  height: 32px;
+  background-color: #91c17b;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}

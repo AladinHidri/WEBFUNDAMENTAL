@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="dojonary">
+            Dojonary
+        </div>
+        <input class="search" type="text" id="searchInput" placeholder="Search">
+
+        <button class="login" onclick="tggleLogin()">
+            <div id="login">Login</div>
+        </button>
+    </header>
+
+    <div class="body">
+        <div>
+            <div class="container">
+                <div>
+                    <h1 class="ninja">ninja</h1>
+                    <div class="display-flex">
+                        <div>
+                            <i class="noun-style">noun</i>
+                            <div class="display-flex">
+                                <div>plural:</div>
+                                <i>&nbsp;ninjas</i>
+                            </div>
+                        </div>
+                        <div class="prationner">
+                            <div>A practionner skilled in the</div>
+                            <div class="display-flex">
+                                <div class="text-decoration">Japanese</div>
+                                <div> &nbsp;art of &nbsp;</div>
+                                <div class="text-decoration">ninjustu</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button id="likeButton" class="button-style display-flex" onclick="likeFirst()">
+                        <div id="likeCount1">0 </div>
+                        &nbsp; likes
+                    </button>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <h1 class="ninja">ninja</h1>
+                    <div class="display-flex">
+                        <div>
+                            <i class="noun-style">noun</i>
+                            <div class="display-flex">
+                                <div>plural:</div>
+                                <i>&nbsp;ninjas</i>
+                            </div>
+                        </div>
+                        <div class="prationner">
+                            <div>A practionner skilled in the</div>
+                            <div class="display-flex">
+                                <div class="text-decoration">Japanese</div>
+                                <div> &nbsp;art of &nbsp;</div>
+                                <div class="text-decoration">ninjustu</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button id="likeButton" class="button-style display-flex" onclick="likeSecond()">
+                        <div id="likeCount2">0 </div>
+                        &nbsp; likes
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="definition">
+            <div class="dijonary-defined-by-you">
+                <div>Dijonary</div>
+                <div>defined by YOU</div>
+            </div>
+            <button class="add-definition" onclick="addDefinition(this)">Add Definition</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

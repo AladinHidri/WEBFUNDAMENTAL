@@ -1,0 +1,33 @@
+.container {
+  border: 2px solid black;
+  width: 400px;
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 30px;
+  padding-top: 17px;
+}
+.display-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.button-style {
+  background-color: yellow;
+  box-shadow: 2px 3px 0px 0px black;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+}
+.text-style {
+  margin-top: 11px;
+  margin-left: 32px;
+  font-size: 18px;
+}
+.some-user {
+  font-weight: 600;
+  font-size: 22px;
+}
+.like-style {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 27px;
+}
